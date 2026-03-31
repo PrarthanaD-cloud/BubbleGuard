@@ -1,35 +1,35 @@
 # Air Bubble Detection and Removal System
 
 ## Project Overview
-This project presents an **Air Bubble Detection and Removal System** designed for IV fluid monitoring using an ESP32 microcontroller.  
+This project presents an **Air Bubble Detection and Removal System** designed for IV fluid monitoring using an ESP32 microcontroller.
 
 The system integrates **ultrasonic, IR, and capacitive sensors** to detect air bubbles in real-time and automatically activates a **solenoid valve** (simulated using LED) to remove them.
 
 ---
 
 ## Wokwi Simulation
-https://wokwi.com/projects/459290466418469889
+https://wokwi.com/projects/459290466418469889  
 
-Developed and tested using **Wokwi Online Simulator**.
+Developed and tested using the Wokwi Online Simulator.
 
 ---
 
 ## Objectives
-- Detect air bubbles in IV fluid lines
-- Prevent risk to patients caused by air embolism
-- Automatically remove detected bubbles
-- Ensure continuous and safe fluid flow
+- Detect air bubbles in IV fluid lines  
+- Prevent risk to patients caused by air embolism  
+- Automatically remove detected bubbles  
+- Ensure continuous and safe fluid flow  
 
 ---
 
 ## Components Used
-- ESP32 Microcontroller
-- Ultrasonic Sensor (HC-SR04)
-- IR Sensor
-- Capacitive Sensor (simulated using potentiometer)
-- Solenoid Valve (simulated using LED)
-- Resistors
-- Connecting wires
+- ESP32 Microcontroller  
+- Ultrasonic Sensor (HC-SR04)  
+- IR Sensor  
+- Capacitive Sensor (simulated using potentiometer)  
+- Solenoid Valve (simulated using LED)  
+- Resistors  
+- Connecting wires  
 
 ---
 
@@ -60,48 +60,48 @@ All sensor data is processed by ESP32.
 
 ## Pin Configuration
 
-| Component        | ESP32 Pin |
-|----------------|----------|
-| Ultrasonic TRIG | GPIO 5  |
-| Ultrasonic ECHO | GPIO 18 |
-| IR Sensor       | GPIO 19 |
-| Capacitive      | GPIO 34 |
-| Solenoid (LED)  | GPIO 23 |
+| Component            | ESP32 Pin |
+|---------------------|----------|
+| Ultrasonic TRIG     | GPIO 5   |
+| Ultrasonic ECHO     | GPIO 18  |
+| IR Sensor           | GPIO 19  |
+| Capacitive Sensor   | GPIO 34  |
+| Solenoid (LED)      | GPIO 23  |
 
 ---
 
 ## Features
-- Multi-sensor detection system
-- Automatic bubble removal
-- Real-time monitoring
-- Safe and reliable operation
-- Low-cost and scalable design
+- Multi-sensor detection system  
+- Automatic bubble removal  
+- Real-time monitoring  
+- Safe and reliable operation  
+- Low-cost and scalable design  
 
 ---
 
 ## Simulation Details
-The project is simulated using **ESP32 in Wokwi**, which supports multiple sensors and embedded applications. :contentReference[oaicite:1]{index=1}  
+The project is simulated using ESP32 in Wokwi, which supports multiple sensors and embedded applications.
 
 ---
 
-**Demo video link**
-https://drive.google.com/file/d/1SSC7D0pCdrNZdP2cGHNC0lCQioS223i9/view?usp=drivesdk
+## Demo Video
+https://drive.google.com/file/d/1SSC7D0pCdrNZdP2cGHNC0lCQioS223i9/view?usp=drivesdk  
 
 ---
 
 ## Future Enhancements
-- IoT-based mobile alerts using WiFi
-- LCD display for real-time status
-- Buzzer alarm system
-- Data logging for hospital monitoring
+- IoT-based mobile alerts using WiFi  
+- LCD display for real-time status  
+- Buzzer alarm system  
+- Data logging for hospital monitoring  
 
 ---
 
-##  Author
+## Author
 **Prarthana D.**  
 Computer Science Engineering Student  
 
 ---
 
-##  License
+## License
 This project is for educational and research purposes.
