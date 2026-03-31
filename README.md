@@ -84,7 +84,7 @@ The project is simulated using **ESP32 in Wokwi**, which supports multiple senso
 
 ---
 
-**## Demo video link**
+**Demo video link**
 https://drive.google.com/file/d/1SSC7D0pCdrNZdP2cGHNC0lCQioS223i9/view?usp=drivesdk
 
 ---
